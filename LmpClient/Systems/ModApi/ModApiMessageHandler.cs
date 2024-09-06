@@ -16,7 +16,7 @@ namespace LmpClient.Systems.ModApi
         {
             if (!(msg.Data is ModMsgData msgData)) return;
 
-            var modData = Common.TrimArray(msgData.Data, msgData.NumBytes);
+            var modData = LmpCommon.Common.TrimArray(msgData.Data, msgData.NumBytes);
             ModApiEvent.onModMessageReceived.Fire(msgData.ModName, modData);
         }
     }

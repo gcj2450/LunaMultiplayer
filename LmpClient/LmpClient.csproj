@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>LmpClient</RootNamespace>
     <AssemblyName>LmpClient</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
   </PropertyGroup>
@@ -50,6 +50,9 @@
     </Reference>
     <Reference Include="CachedQuickLz, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\External\Nuget\CachedQuickLz.1.3.1\lib\net46\CachedQuickLz.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System">
       <HintPath>..\External\KSPLibraries\System.dll</HintPath>
@@ -857,6 +860,7 @@
     <Content Include="Resources\LMPButton.png" />
   </ItemGroup>
   <ItemGroup>
+    <Fakes Include="Fakes\Assembly-CSharp.fakes" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,1748 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Fakes.ShimAdvancedScreen">
+            <summary>AdvancedScreen 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedScreen.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedScreen.#ctor(AdvancedScreen)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimAdvancedScreen.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.AllInstances.Start">
+            <summary>设置 AdvancedScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.AllInstances.advChangedDelIUIObject">
+            <summary>设置 AdvancedScreen.advChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.AllInstances.commitCurrentSetting">
+            <summary>设置 AdvancedScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.AllInstances.setInitialValues">
+            <summary>设置 AdvancedScreen.setInitialValues() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedScreen.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedScreen.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.Constructor">
+            <summary>设置 AdvancedScreen.AdvancedScreen() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.Start">
+            <summary>设置 AdvancedScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.advChangedDelIUIObject">
+            <summary>设置 AdvancedScreen.advChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.commitCurrentSetting">
+            <summary>设置 AdvancedScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedScreen.setInitialValues">
+            <summary>设置 AdvancedScreen.setInitialValues() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimAdvancedSettings">
+            <summary>AdvancedSettings 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedSettings.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedSettings.#ctor(AdvancedSettings)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimAdvancedSettings.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.Awake">
+            <summary>设置 AdvancedSettings.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.Start">
+            <summary>设置 AdvancedSettings.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.loadAdvancedSettings">
+            <summary>设置 AdvancedSettings.loadAdvancedSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.saveAdvancedSettings">
+            <summary>设置 AdvancedSettings.saveAdvancedSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setAMDStateString">
+            <summary>设置 AdvancedSettings.setAMDState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setCharStateString">
+            <summary>设置 AdvancedSettings.setCharState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setFullSStateString">
+            <summary>设置 AdvancedSettings.setFullSState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setLauncherStateString">
+            <summary>设置 AdvancedSettings.setLauncherState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setunLogStateString">
+            <summary>设置 AdvancedSettings.setunLogState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.AllInstances.setx64tateString">
+            <summary>设置 AdvancedSettings.setx64tate(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.Awake">
+            <summary>设置 AdvancedSettings.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedSettings.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAdvancedSettings.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.Constructor">
+            <summary>设置 AdvancedSettings.AdvancedSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.Start">
+            <summary>设置 AdvancedSettings.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.loadAdvancedSettings">
+            <summary>设置 AdvancedSettings.loadAdvancedSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.saveAdvancedSettings">
+            <summary>设置 AdvancedSettings.saveAdvancedSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setAMDStateString">
+            <summary>设置 AdvancedSettings.setAMDState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setCharStateString">
+            <summary>设置 AdvancedSettings.setCharState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setFullSStateString">
+            <summary>设置 AdvancedSettings.setFullSState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setLauncherStateString">
+            <summary>设置 AdvancedSettings.setLauncherState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setunLogStateString">
+            <summary>设置 AdvancedSettings.setunLogState(String state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAdvancedSettings.setx64tateString">
+            <summary>设置 AdvancedSettings.setx64tate(String state) 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimAudioScreen">
+            <summary>AudioScreen 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAudioScreen.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAudioScreen.#ctor(AudioScreen)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimAudioScreen.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.AllInstances.Start">
+            <summary>设置 AudioScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.AllInstances.audioChangedDelIUIObject">
+            <summary>设置 AudioScreen.audioChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.AllInstances.commitCurrentSetting">
+            <summary>设置 AudioScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.AllInstances.initUI">
+            <summary>设置 AudioScreen.initUI() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAudioScreen.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAudioScreen.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.Constructor">
+            <summary>设置 AudioScreen.AudioScreen() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.Start">
+            <summary>设置 AudioScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.audioChangedDelIUIObject">
+            <summary>设置 AudioScreen.audioChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.commitCurrentSetting">
+            <summary>设置 AudioScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAudioScreen.initUI">
+            <summary>设置 AudioScreen.initUI() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimBackground">
+            <summary>Background 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBackground.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBackground.#ctor(Background)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimBackground.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.AllInstances.Awake">
+            <summary>设置 Background.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.AllInstances.GetImage">
+            <summary>设置 Background.GetImage() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.Awake">
+            <summary>设置 Background.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBackground.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBackground.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.Constructor">
+            <summary>设置 Background.Background() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBackground.GetImage">
+            <summary>设置 Background.GetImage() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimBanner">
+            <summary>Banner 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBanner.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBanner.#ctor(Banner)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimBanner.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.AllInstances.Awake">
+            <summary>设置 Banner.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.AllInstances.GetImage">
+            <summary>设置 Banner.GetImage() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.AllInstances.OnMouseDown">
+            <summary>设置 Banner.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.AllInstances.OnMouseEnter">
+            <summary>设置 Banner.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.AllInstances.OnMouseExit">
+            <summary>设置 Banner.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.Awake">
+            <summary>设置 Banner.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBanner.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimBanner.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.Constructor">
+            <summary>设置 Banner.Banner() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.GetImage">
+            <summary>设置 Banner.GetImage() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.OnMouseDown">
+            <summary>设置 Banner.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.OnMouseEnter">
+            <summary>设置 Banner.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimBanner.OnMouseExit">
+            <summary>设置 Banner.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimCFGFileOperator">
+            <summary>CFGFileOperator 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimCFGFileOperator.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimCFGFileOperator.#ctor(CFGFileOperator)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimCFGFileOperator.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.Start">
+            <summary>设置 CFGFileOperator.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.checkSettingsFile">
+            <summary>设置 CFGFileOperator.checkSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.createSettingsFile">
+            <summary>设置 CFGFileOperator.createSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.initializeUIVariables">
+            <summary>设置 CFGFileOperator.initializeUIVariables() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.saveSettings">
+            <summary>设置 CFGFileOperator.saveSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.AllInstances.writeSettingsFile">
+            <summary>设置 CFGFileOperator.writeSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimCFGFileOperator.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimCFGFileOperator.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.Constructor">
+            <summary>设置 CFGFileOperator.CFGFileOperator() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.Start">
+            <summary>设置 CFGFileOperator.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.checkSettingsFile">
+            <summary>设置 CFGFileOperator.checkSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.createSettingsFile">
+            <summary>设置 CFGFileOperator.createSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.initializeUIVariables">
+            <summary>设置 CFGFileOperator.initializeUIVariables() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.saveSettings">
+            <summary>设置 CFGFileOperator.saveSettings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimCFGFileOperator.writeSettingsFile">
+            <summary>设置 CFGFileOperator.writeSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimDynamicUIElement">
+            <summary>DynamicUIElement 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimDynamicUIElement.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimDynamicUIElement.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimDynamicUIElement.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimDynamicUIElement.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimDynamicUIElement.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimExit">
+            <summary>Exit 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimExit.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimExit.#ctor(Exit)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimExit.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.AllInstances.Awake">
+            <summary>设置 Exit.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.AllInstances.OnMouseDown">
+            <summary>设置 Exit.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.AllInstances.OnMouseEnter">
+            <summary>设置 Exit.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.AllInstances.OnMouseExit">
+            <summary>设置 Exit.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.AllInstances.QuitLauncher">
+            <summary>设置 Exit.QuitLauncher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.Awake">
+            <summary>设置 Exit.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimExit.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimExit.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.Constructor">
+            <summary>设置 Exit.Exit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.OnMouseDown">
+            <summary>设置 Exit.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.OnMouseEnter">
+            <summary>设置 Exit.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.OnMouseExit">
+            <summary>设置 Exit.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimExit.QuitLauncher">
+            <summary>设置 Exit.QuitLauncher() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimGraphicsProfiles">
+            <summary>GraphicsProfiles 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsProfiles.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsProfiles.#ctor(GraphicsProfiles)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimGraphicsProfiles.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.AllInstances.Start">
+            <summary>设置 GraphicsProfiles.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.AllInstances.profileChangedDelIUIObject">
+            <summary>设置 GraphicsProfiles.profileChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsProfiles.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsProfiles.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.Constructor">
+            <summary>设置 GraphicsProfiles.GraphicsProfiles() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.Start">
+            <summary>设置 GraphicsProfiles.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsProfiles.profileChangedDelIUIObject">
+            <summary>设置 GraphicsProfiles.profileChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimGraphicsScreen">
+            <summary>GraphicsScreen 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsScreen.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsScreen.#ctor(GraphicsScreen)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimGraphicsScreen.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.Awake">
+            <summary>设置 GraphicsScreen.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.Start">
+            <summary>设置 GraphicsScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.commitCurrentSetting">
+            <summary>设置 GraphicsScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.graphicsChangedDelIUIObject">
+            <summary>设置 GraphicsScreen.graphicsChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.setGraphicsProfileString">
+            <summary>设置 GraphicsScreen.setGraphicsProfile(String profile) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.AllInstances.setInitialUIValues">
+            <summary>设置 GraphicsScreen.setInitialUIValues() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.Awake">
+            <summary>设置 GraphicsScreen.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsScreen.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimGraphicsScreen.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.Constructor">
+            <summary>设置 GraphicsScreen.GraphicsScreen() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.Start">
+            <summary>设置 GraphicsScreen.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.commitCurrentSetting">
+            <summary>设置 GraphicsScreen.commitCurrentSetting() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.graphicsChangedDelIUIObject">
+            <summary>设置 GraphicsScreen.graphicsChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.setGraphicsProfileString">
+            <summary>设置 GraphicsScreen.setGraphicsProfile(String profile) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimGraphicsScreen.setInitialUIValues">
+            <summary>设置 GraphicsScreen.setInitialUIValues() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimKSPSite">
+            <summary>KSPSite 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimKSPSite.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimKSPSite.#ctor(KSPSite)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimKSPSite.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.Awake">
+            <summary>设置 KSPSite.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.OnMouseDown">
+            <summary>设置 KSPSite.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.OnMouseEnter">
+            <summary>设置 KSPSite.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.OnMouseExit">
+            <summary>设置 KSPSite.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.SetColors">
+            <summary>设置 KSPSite.SetColors() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.AllInstances.SetURLs">
+            <summary>设置 KSPSite.SetURLs() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.Awake">
+            <summary>设置 KSPSite.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimKSPSite.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimKSPSite.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.Constructor">
+            <summary>设置 KSPSite.KSPSite() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.OnMouseDown">
+            <summary>设置 KSPSite.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.OnMouseEnter">
+            <summary>设置 KSPSite.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.OnMouseExit">
+            <summary>设置 KSPSite.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.SetColors">
+            <summary>设置 KSPSite.SetColors() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimKSPSite.SetURLs">
+            <summary>设置 KSPSite.SetURLs() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimNews">
+            <summary>News 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNews.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNews.#ctor(News)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimNews.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.Awake">
+            <summary>设置 News.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.DrawNews">
+            <summary>设置 News.DrawNews() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.GetNews">
+            <summary>设置 News.GetNews() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.cleanBodyString">
+            <summary>设置 News.cleanBody(String body) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.cleanDateString">
+            <summary>设置 News.cleanDate(String date) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.AllInstances.cleanTitleString">
+            <summary>设置 News.cleanTitle(String body) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.Awake">
+            <summary>设置 News.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNews.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNews.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.Constructor">
+            <summary>设置 News.News() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.DrawNews">
+            <summary>设置 News.DrawNews() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.GetNews">
+            <summary>设置 News.GetNews() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.cleanBodyString">
+            <summary>设置 News.cleanBody(String body) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.cleanDateString">
+            <summary>设置 News.cleanDate(String date) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNews.cleanTitleString">
+            <summary>设置 News.cleanTitle(String body) 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimNewsPost">
+            <summary>NewsPost 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNewsPost.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNewsPost.#ctor(NewsPost)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimNewsPost.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.DrawNewsPost">
+            <summary>设置 NewsPost.DrawNewsPost() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.OnMouseDown">
+            <summary>设置 NewsPost.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.OnMouseEnter">
+            <summary>设置 NewsPost.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.OnMouseExit">
+            <summary>设置 NewsPost.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.setBodyString">
+            <summary>设置 NewsPost.setBody(String body) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.setDateString">
+            <summary>设置 NewsPost.setDate(String date) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.setLinkString">
+            <summary>设置 NewsPost.setLink(String link) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.AllInstances.setTitleString">
+            <summary>设置 NewsPost.setTitle(String title) 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNewsPost.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimNewsPost.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.Constructor">
+            <summary>设置 NewsPost.NewsPost() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.DrawNewsPost">
+            <summary>设置 NewsPost.DrawNewsPost() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.OnMouseDown">
+            <summary>设置 NewsPost.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.OnMouseEnter">
+            <summary>设置 NewsPost.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.OnMouseExit">
+            <summary>设置 NewsPost.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.setBodyString">
+            <summary>设置 NewsPost.setBody(String body) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.setDateString">
+            <summary>设置 NewsPost.setDate(String date) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.setLinkString">
+            <summary>设置 NewsPost.setLink(String link) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimNewsPost.setTitleString">
+            <summary>设置 NewsPost.setTitle(String title) 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimPlay">
+            <summary>Play 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimPlay.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimPlay.#ctor(Play)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimPlay.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.AllowStartGameBoolean">
+            <summary>设置 Play.AllowStartGame(Boolean allow) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.ApplicationRootPath">
+            <summary>设置 Play.ApplicationRootPath() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.ChangeTextureInt32">
+            <summary>设置 Play.ChangeTexture(Int32 state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.OnMouseDown">
+            <summary>设置 Play.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.OnMouseEnter">
+            <summary>设置 Play.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.OnMouseExit">
+            <summary>设置 Play.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.QuitAndStartGame">
+            <summary>设置 Play.QuitAndStartGame() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.Start">
+            <summary>设置 Play.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.Update">
+            <summary>设置 Play.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.launchFlags">
+            <summary>设置 Play.launchFlags() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.shouldAllowPlay">
+            <summary>设置 Play.shouldAllowPlay() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllInstances.skipLauncher">
+            <summary>设置 Play.skipLauncher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.AllowStartGameBoolean">
+            <summary>设置 Play.AllowStartGame(Boolean allow) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.ApplicationRootPath">
+            <summary>设置 Play.ApplicationRootPath() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimPlay.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimPlay.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.ChangeTextureInt32">
+            <summary>设置 Play.ChangeTexture(Int32 state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.Constructor">
+            <summary>设置 Play.Play() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.OnMouseDown">
+            <summary>设置 Play.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.OnMouseEnter">
+            <summary>设置 Play.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.OnMouseExit">
+            <summary>设置 Play.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.QuitAndStartGame">
+            <summary>设置 Play.QuitAndStartGame() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.Start">
+            <summary>设置 Play.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.Update">
+            <summary>设置 Play.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.launchFlags">
+            <summary>设置 Play.launchFlags() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.shouldAllowPlay">
+            <summary>设置 Play.shouldAllowPlay() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimPlay.skipLauncher">
+            <summary>设置 Play.skipLauncher() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimSettings">
+            <summary>Settings 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettings.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettings.#ctor(Settings)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimSettings.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.OnMouseDown">
+            <summary>设置 Settings.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.OnMouseEnter">
+            <summary>设置 Settings.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.OnMouseExit">
+            <summary>设置 Settings.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.Start">
+            <summary>设置 Settings.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.Update">
+            <summary>设置 Settings.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.AllInstances.setTexture">
+            <summary>设置 Settings.setTexture() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettings.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettings.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.Constructor">
+            <summary>设置 Settings.Settings() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.OnMouseDown">
+            <summary>设置 Settings.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.OnMouseEnter">
+            <summary>设置 Settings.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.OnMouseExit">
+            <summary>设置 Settings.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.Start">
+            <summary>设置 Settings.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.Update">
+            <summary>设置 Settings.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettings.setTexture">
+            <summary>设置 Settings.setTexture() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimSettingsUI">
+            <summary>SettingsUI 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettingsUI.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettingsUI.#ctor(SettingsUI)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimSettingsUI.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.AllInstances.Start">
+            <summary>设置 SettingsUI.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.AllInstances.Update">
+            <summary>设置 SettingsUI.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.AllInstances.editorChangedDelIUIObject">
+            <summary>设置 SettingsUI.editorChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.AllInstances.writeSettingsFile">
+            <summary>设置 SettingsUI.writeSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettingsUI.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimSettingsUI.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.Constructor">
+            <summary>设置 SettingsUI.SettingsUI() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.Start">
+            <summary>设置 SettingsUI.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.Update">
+            <summary>设置 SettingsUI.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.editorChangedDelIUIObject">
+            <summary>设置 SettingsUI.editorChangedDel(IUIObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimSettingsUI.writeSettingsFile">
+            <summary>设置 SettingsUI.writeSettingsFile() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimStatsCallHome">
+            <summary>StatsCallHome 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimStatsCallHome.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimStatsCallHome.#ctor(StatsCallHome)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimStatsCallHome.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.CreateGameID">
+            <summary>设置 StatsCallHome.CreateGameID() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.GetLauncherInfo">
+            <summary>设置 StatsCallHome.GetLauncherInfo() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.OnApplicationQuit">
+            <summary>设置 StatsCallHome.OnApplicationQuit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.SendInfoString">
+            <summary>设置 StatsCallHome.SendInfo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.SendStatsInfo">
+            <summary>设置 StatsCallHome.SendStatsInfo() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.AllInstances.Start">
+            <summary>设置 StatsCallHome.Start() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimStatsCallHome.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimStatsCallHome.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.Constructor">
+            <summary>设置 StatsCallHome.StatsCallHome() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.CreateGameID">
+            <summary>设置 StatsCallHome.CreateGameID() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.GetLauncherInfo">
+            <summary>设置 StatsCallHome.GetLauncherInfo() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.OnApplicationQuit">
+            <summary>设置 StatsCallHome.OnApplicationQuit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.SendInfoString">
+            <summary>设置 StatsCallHome.SendInfo(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.SendStatsInfo">
+            <summary>设置 StatsCallHome.SendStatsInfo() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.Start">
+            <summary>设置 StatsCallHome.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimStatsCallHome.StaticConstructor">
+            <summary>设置 StatsCallHome.StatsCallHome() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimUpdateKSP">
+            <summary>UpdateKSP 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimUpdateKSP.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimUpdateKSP.#ctor(UpdateKSP)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimUpdateKSP.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.ApplicationRootPath">
+            <summary>设置 UpdateKSP.ApplicationRootPath() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.Awake">
+            <summary>设置 UpdateKSP.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.ChangeTextureInt32">
+            <summary>设置 UpdateKSP.ChangeTexture(Int32 state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.CheckPatcher">
+            <summary>设置 UpdateKSP.CheckPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.CheckUpdate">
+            <summary>设置 UpdateKSP.CheckUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.DisplayDownloadProgressObjectDownloadProgressChangedEventArgs">
+            <summary>设置 UpdateKSP.DisplayDownloadProgress(Object sender, DownloadProgressChangedEventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.DownloadPatcher">
+            <summary>设置 UpdateKSP.DownloadPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.FixedUpdate">
+            <summary>设置 UpdateKSP.FixedUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.GetOSCode">
+            <summary>设置 UpdateKSP.GetOSCode() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.InstallDependencies">
+            <summary>设置 UpdateKSP.InstallDependencies() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.OnLevelWasLoadedInt32">
+            <summary>设置 UpdateKSP.OnLevelWasLoaded(Int32 level) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.OnMouseDown">
+            <summary>设置 UpdateKSP.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.OnMouseEnter">
+            <summary>设置 UpdateKSP.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.OnMouseExit">
+            <summary>设置 UpdateKSP.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.PatcherDownloadedObjectAsyncCompletedEventArgs">
+            <summary>设置 UpdateKSP.PatcherDownloaded(Object sender, AsyncCompletedEventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.Start">
+            <summary>设置 UpdateKSP.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.StartPatcher">
+            <summary>设置 UpdateKSP.StartPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.Update">
+            <summary>设置 UpdateKSP.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.AllInstances.UpdateCheckText">
+            <summary>设置 UpdateKSP.UpdateCheckText() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.ApplicationRootPath">
+            <summary>设置 UpdateKSP.ApplicationRootPath() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.Awake">
+            <summary>设置 UpdateKSP.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimUpdateKSP.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimUpdateKSP.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.BytesToHexByteArray">
+            <summary>设置 UpdateKSP.BytesToHex(Byte[] b) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.ChangeTextureInt32">
+            <summary>设置 UpdateKSP.ChangeTexture(Int32 state) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.CheckPatcher">
+            <summary>设置 UpdateKSP.CheckPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.CheckUpdate">
+            <summary>设置 UpdateKSP.CheckUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.Constructor">
+            <summary>设置 UpdateKSP.UpdateKSP() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.DisplayDownloadProgressObjectDownloadProgressChangedEventArgs">
+            <summary>设置 UpdateKSP.DisplayDownloadProgress(Object sender, DownloadProgressChangedEventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.DownloadPatcher">
+            <summary>设置 UpdateKSP.DownloadPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.FileMD5BytesString">
+            <summary>设置 UpdateKSP.FileMD5Bytes(String file) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.FileMD5StringString">
+            <summary>设置 UpdateKSP.FileMD5String(String file) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.FixedUpdate">
+            <summary>设置 UpdateKSP.FixedUpdate() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.GetOSCode">
+            <summary>设置 UpdateKSP.GetOSCode() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.InstallDependencies">
+            <summary>设置 UpdateKSP.InstallDependencies() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.OnLevelWasLoadedInt32">
+            <summary>设置 UpdateKSP.OnLevelWasLoaded(Int32 level) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.OnMouseDown">
+            <summary>设置 UpdateKSP.OnMouseDown() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.OnMouseEnter">
+            <summary>设置 UpdateKSP.OnMouseEnter() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.OnMouseExit">
+            <summary>设置 UpdateKSP.OnMouseExit() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.PatcherDownloadedObjectAsyncCompletedEventArgs">
+            <summary>设置 UpdateKSP.PatcherDownloaded(Object sender, AsyncCompletedEventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.Start">
+            <summary>设置 UpdateKSP.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.StartPatcher">
+            <summary>设置 UpdateKSP.StartPatcher() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.Update">
+            <summary>设置 UpdateKSP.Update() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimUpdateKSP.UpdateCheckText">
+            <summary>设置 UpdateKSP.UpdateCheckText() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimWindowMan">
+            <summary>WindowMan 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowMan.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowMan.#ctor(WindowMan)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimWindowMan.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.AllInstances.Start">
+            <summary>设置 WindowMan.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.AllInstances.WindowedBorderlessInt32Int32">
+            <summary>设置 WindowMan.WindowedBorderless(Int32 _width, Int32 _height) 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowMan.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowMan.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.Constructor">
+            <summary>设置 WindowMan.WindowMan() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.Start">
+            <summary>设置 WindowMan.Start() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowMan.WindowedBorderlessInt32Int32">
+            <summary>设置 WindowMan.WindowedBorderless(Int32 _width, Int32 _height) 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimWindowManager">
+            <summary>WindowManager 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowManager.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowManager.#ctor(WindowManager)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimWindowManager.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowManager.AllInstances.Awake">
+            <summary>设置 WindowManager.Awake() 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowManager.Awake">
+            <summary>设置 WindowManager.Awake() 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowManager.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimWindowManager.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowManager.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimWindowManager.Constructor">
+            <summary>设置 WindowManager.WindowManager() 的 填充码</summary>
+        </member>
+        <member name="T:Global.Fakes.StubAdvancedScreen">
+            <summary>AdvancedScreen 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedScreen.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedScreen.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedScreen.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAdvancedScreen.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedScreen.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAdvancedScreen.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedScreen.InitializeStub">
+            <summary>初始化 type StubAdvancedScreen 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedScreen.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedScreen.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubAdvancedSettings">
+            <summary>AdvancedSettings 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedSettings.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedSettings.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedSettings.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAdvancedSettings.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedSettings.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAdvancedSettings.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAdvancedSettings.InitializeStub">
+            <summary>初始化 type StubAdvancedSettings 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedSettings.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAdvancedSettings.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubAudioScreen">
+            <summary>AudioScreen 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAudioScreen.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAudioScreen.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAudioScreen.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAudioScreen.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAudioScreen.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubAudioScreen.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubAudioScreen.InitializeStub">
+            <summary>初始化 type StubAudioScreen 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAudioScreen.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubAudioScreen.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubBackground">
+            <summary>Background 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBackground.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBackground.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBackground.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubBackground.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBackground.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubBackground.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBackground.InitializeStub">
+            <summary>初始化 type StubBackground 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBackground.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBackground.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubBanner">
+            <summary>Banner 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBanner.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBanner.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBanner.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubBanner.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBanner.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubBanner.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubBanner.InitializeStub">
+            <summary>初始化 type StubBanner 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBanner.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubBanner.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubCFGFileOperator">
+            <summary>CFGFileOperator 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubCFGFileOperator.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubCFGFileOperator.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubCFGFileOperator.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubCFGFileOperator.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubCFGFileOperator.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubCFGFileOperator.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubCFGFileOperator.InitializeStub">
+            <summary>初始化 type StubCFGFileOperator 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubCFGFileOperator.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubCFGFileOperator.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubExit">
+            <summary>Exit 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubExit.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubExit.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubExit.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubExit.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubExit.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubExit.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubExit.InitializeStub">
+            <summary>初始化 type StubExit 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubExit.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubExit.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubGraphicsProfiles">
+            <summary>GraphicsProfiles 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsProfiles.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsProfiles.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsProfiles.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubGraphicsProfiles.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsProfiles.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubGraphicsProfiles.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsProfiles.InitializeStub">
+            <summary>初始化 type StubGraphicsProfiles 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsProfiles.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsProfiles.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubGraphicsScreen">
+            <summary>GraphicsScreen 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsScreen.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsScreen.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsScreen.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubGraphicsScreen.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsScreen.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubGraphicsScreen.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubGraphicsScreen.InitializeStub">
+            <summary>初始化 type StubGraphicsScreen 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsScreen.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubGraphicsScreen.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubKSPSite">
+            <summary>KSPSite 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubKSPSite.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubKSPSite.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubKSPSite.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubKSPSite.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubKSPSite.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubKSPSite.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubKSPSite.InitializeStub">
+            <summary>初始化 type StubKSPSite 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubKSPSite.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubKSPSite.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubNews">
+            <summary>News 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNews.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNews.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNews.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubNews.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNews.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubNews.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNews.InitializeStub">
+            <summary>初始化 type StubNews 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNews.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNews.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubNewsPost">
+            <summary>NewsPost 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNewsPost.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNewsPost.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNewsPost.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubNewsPost.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNewsPost.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubNewsPost.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubNewsPost.InitializeStub">
+            <summary>初始化 type StubNewsPost 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNewsPost.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubNewsPost.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubPlay">
+            <summary>Play 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubPlay.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubPlay.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubPlay.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubPlay.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubPlay.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubPlay.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubPlay.InitializeStub">
+            <summary>初始化 type StubPlay 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubPlay.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubPlay.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubSettings">
+            <summary>Settings 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettings.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettings.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettings.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubSettings.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettings.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubSettings.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettings.InitializeStub">
+            <summary>初始化 type StubSettings 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettings.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettings.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubSettingsUI">
+            <summary>SettingsUI 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettingsUI.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettingsUI.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettingsUI.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubSettingsUI.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettingsUI.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubSettingsUI.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubSettingsUI.InitializeStub">
+            <summary>初始化 type StubSettingsUI 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettingsUI.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubSettingsUI.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubStatsCallHome">
+            <summary>StatsCallHome 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubStatsCallHome.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubStatsCallHome.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubStatsCallHome.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubStatsCallHome.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubStatsCallHome.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubStatsCallHome.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubStatsCallHome.InitializeStub">
+            <summary>初始化 type StubStatsCallHome 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubStatsCallHome.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubStatsCallHome.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubUpdateKSP">
+            <summary>UpdateKSP 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubUpdateKSP.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubUpdateKSP.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubUpdateKSP.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubUpdateKSP.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubUpdateKSP.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubUpdateKSP.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubUpdateKSP.InitializeStub">
+            <summary>初始化 type StubUpdateKSP 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubUpdateKSP.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubUpdateKSP.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubWindowMan">
+            <summary>WindowMan 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowMan.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowMan.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowMan.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubWindowMan.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowMan.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubWindowMan.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowMan.InitializeStub">
+            <summary>初始化 type StubWindowMan 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowMan.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowMan.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Global.Fakes.StubWindowManager">
+            <summary>WindowManager 的存根类型</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowManager.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowManager.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowManager.Equals(System.Object)">
+            <summary>设置 Object.Equals(Object other) 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubWindowManager.EqualsObject">
+            <summary>设置 Object.Equals(Object other) 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowManager.GetHashCode">
+            <summary>设置 Object.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Global.Fakes.StubWindowManager.GetHashCode01">
+            <summary>设置 Object.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Global.Fakes.StubWindowManager.InitializeStub">
+            <summary>初始化 type StubWindowManager 的新实例</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowManager.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Global.Fakes.StubWindowManager.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

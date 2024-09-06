@@ -96,7 +96,7 @@ namespace LmpClient.Systems.Flag
                 }
 
                 //Don't send the flag when the SHA sum already matches as that would mean that the server already has it
-                if (existingFlag != null && existingFlag.ShaSum == Common.CalculateSha256Hash(flagData)) return;
+                if (existingFlag != null && existingFlag.ShaSum == LmpCommon.Common.CalculateSha256Hash(flagData)) return;
 
                 LunaLog.Log($"[LMP]: Uploading {Path.GetFileName(flagUrl)} flag");
                 MessageSender.SendMessage(MessageSender.GetFlagMessageData(flagUrl, flagData));

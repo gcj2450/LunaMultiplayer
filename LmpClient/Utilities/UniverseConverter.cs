@@ -78,7 +78,7 @@ namespace LmpClient.Utilities
             {
                 foreach (var cn in vesselNodes)
                 {
-                    var vesselId = Common.ConvertConfigStringToGuidString(cn.GetValue("pid"));
+                    var vesselId = LmpCommon.Common.ConvertConfigStringToGuidString(cn.GetValue("pid"));
                     LunaLog.Log($"[LMP]: Saving vessel {vesselId}, Name: {cn.GetValue("name")}");
 
                     File.WriteAllText(CommonUtil.CombinePaths(vesselFolder, $"{vesselId}.txt"), Encoding.UTF8.GetString(cn.Serialize()));

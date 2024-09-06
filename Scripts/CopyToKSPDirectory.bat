@@ -3,11 +3,11 @@
 
 ::Set the directories in the setdirectories.bat file if you want a different folder than Kerbal Space Program
 ::EXAMPLE:
-:: SET KSPPATH=C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program
-:: SET KSPPATH2=C:\Users\Malte\Desktop\Kerbal Space Program
+:: SET KSPPATH=D:\GOG Games\Kerbal Space Program
+:: SET KSPPATH2=
 call "%~dp0\SetDirectories.bat"
 
-IF DEFINED KSPPATH (ECHO KSPPATH is defined) ELSE (SET KSPPATH=C:\Kerbal Space Program)
+IF DEFINED KSPPATH (ECHO KSPPATH is defined) ELSE (SET KSPPATH=D:\GOG Games\Kerbal Space Program)
 IF DEFINED KSPPATH2 (ECHO KSPPATH2 is defined)
 ::%1
 SET SOLUTIONCONFIGURATION=Debug
@@ -74,3 +74,5 @@ IF DEFINED KSPPATH2 (xcopy /Y "%~dp0..\LmpClient\Resources\Icons\*.*" "%KSPPATH2
 
 xcopy /Y "%~dp0..\LmpClient\Resources\Flags\*.*" "%KSPPATH%\GameData\LunaMultiplayer\Flags"
 IF DEFINED KSPPATH2 (xcopy /Y "%~dp0..\LmpClient\Resources\Flags\*.*" "%KSPPATH2%\GameData\LunaMultiplayer\Flags")
+
+PAUSE

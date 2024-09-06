@@ -76,7 +76,7 @@ namespace LmpClient.Systems.Mod
 
             foreach (var modFile in GetModFiles())
             {
-                var fileHash = Common.CalculateSha256FileHash(modFile);
+                var fileHash = LmpCommon.Common.CalculateSha256FileHash(modFile);
                 DllList.Add(GetRelativePath(modFile), fileHash);
             }
         }
@@ -96,7 +96,7 @@ namespace LmpClient.Systems.Mod
                 modCtrlStructure.OptionalPlugins.Add(new DllFile
                 {
                     FilePath = GetRelativePath(modFile),
-                    Sha = appendSha ? Common.CalculateSha256FileHash(modFile) : string.Empty,
+                    Sha = appendSha ? LmpCommon.Common.CalculateSha256FileHash(modFile) : string.Empty,
                     Text = $"{Path.GetFileNameWithoutExtension(modFile)}. Version: {FileVersionInfo.GetVersionInfo(modFile).FileVersion}"
                 });
             }
