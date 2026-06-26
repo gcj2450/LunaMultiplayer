@@ -7,6 +7,8 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
+#pragma warning disable SYSLIB0014
+
 namespace LmpCommon.RepoRetrievers
 {
     /// <summary>
@@ -27,7 +29,7 @@ namespace LmpCommon.RepoRetrievers
                 }
                 else if (LunaComputerTime.UtcNow - _lastRequestTime > MaxRequestInterval)
                 {
-                    Task.Run(() => RefreshBannedIps());
+                    _ = Task.Run(() => RefreshBannedIps());
                     _lastRequestTime = LunaComputerTime.UtcNow;
                 }
 
@@ -44,9 +46,9 @@ namespace LmpCommon.RepoRetrievers
         }
 
         /// <summary>
-        /// Download the banned ips list from the <see cref="RepoConstants.BannedIpListUrl"/> and return the ones that are correctly written
+        /// Download the banned ips list from the <see cref="RepoConstants.BannedIpListUrl"/>, stored in <see cref="BannedIps"/>
         /// </summary>
-        private static void RefreshBannedIps()
+        public static void RefreshBannedIps()
         {
             try
             {
@@ -58,8 +60,10 @@ namespace LmpCommon.RepoRetrievers
                     {
                         var content = reader.ReadToEnd();
                         var ips = content
-                            .Trim().Split('\n')
-                            .Where(s => !s.StartsWith("#") && !string.IsNullOrEmpty(s)).ToArray();
+                            .Split('\n')
+                            .Select(s => s.Trim()) // Trim whitespace and \r characters in case of Windows line breaks
+                            .Where(s => !s.StartsWith("#") && !string.IsNullOrWhiteSpace(s))
+                            .ToArray();
 
                         PrivBannedIPs.Clear();
 
@@ -67,14 +71,14 @@ namespace LmpCommon.RepoRetrievers
                         {
                             try
                             {
-                                if (!IPAddress.TryParse(ip, out var ipAddr))
+                                if (IPAddress.TryParse(ip, out var ipAddr))
                                 {
                                     PrivBannedIPs.Add(ipAddr);
                                 }
                             }
                             catch (Exception)
                             {
-                                //Ignore the bad server   
+                                //Ignore the bad server
                             }
                         }
                     }

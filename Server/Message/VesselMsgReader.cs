@@ -1,4 +1,4 @@
-﻿using ByteSizeLib;
+using ByteSizeLib;
 using LmpCommon.Message.Data.Vessel;
 using LmpCommon.Message.Interface;
 using LmpCommon.Message.Server;
@@ -97,7 +97,7 @@ namespace Server.Message
             }
 
             if (data.AddToKillList)
-                VesselContext.RemovedVessels.Add(data.VesselId);
+                VesselContext.RemovedVessels.TryAdd(data.VesselId, 0);
 
             //Relay the message.
             MessageQueuer.RelayMessage<VesselSrvMsg>(client, data);
@@ -107,7 +107,7 @@ namespace Server.Message
         {
             var msgData = (VesselProtoMsgData)message;
 
-            if (VesselContext.RemovedVessels.Contains(msgData.VesselId)) return;
+            if (VesselContext.RemovedVessels.ContainsKey(msgData.VesselId)) return;
 
             if (msgData.NumBytes == 0)
             {
@@ -141,8 +141,9 @@ namespace Server.Message
                 if (vesselData.Length > 0)
                 {
                     var protoMsg = ServerContext.ServerMessageFactory.CreateNewMessageData<VesselProtoMsgData>();
-                    protoMsg.Data = Encoding.UTF8.GetBytes(vesselData);
-                    protoMsg.NumBytes = vesselData.Length;
+                    var vesselBytes = Encoding.UTF8.GetBytes(vesselData);
+                    protoMsg.Data = vesselBytes;
+                    protoMsg.NumBytes = vesselBytes.Length;
                     protoMsg.VesselId = vesselId;
 
                     MessageQueuer.SendToClient<VesselSrvMsg>(client, protoMsg);
@@ -160,7 +161,7 @@ namespace Server.Message
             LunaLog.Debug($"Coupling message received! Dominant vessel: {msgData.VesselId}");
             MessageQueuer.RelayMessage<VesselSrvMsg>(client, msgData);
 
-            if (VesselContext.RemovedVessels.Contains(msgData.CoupledVesselId)) return;
+            if (VesselContext.RemovedVessels.ContainsKey(msgData.CoupledVesselId)) return;
 
             //Now remove the weak vessel but DO NOT add to the removed vessels as they might undock!!!
             LunaLog.Debug($"Removing weak coupled vessel {msgData.CoupledVesselId}");
